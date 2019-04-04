@@ -21,6 +21,7 @@ namespace Blink {
         led.plot(0, 0)
     }
 
+    //% block
     export function disableLevel(): void {
         led.unplot(0, 0)
     }
