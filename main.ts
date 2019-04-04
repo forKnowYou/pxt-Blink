@@ -18,7 +18,11 @@ namespace Blink {
 
     //% block
     export function setLevel(ePin: ePin_t, eLevel: eLevel_t): void {
-        
+        led.plot(0, 0)
+    }
+
+    export function disableLevel(): void {
+        led.unplot(0, 0)
     }
 
 }
