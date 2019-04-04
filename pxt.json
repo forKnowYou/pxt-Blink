@@ -1,0 +1,18 @@
+{
+    "name": "Blink",
+    "version": "0.0.0",
+    "description": "test Blink class",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "license": "MIT"
+}
